@@ -1,8 +1,6 @@
 
-# RT2_assignment1_documentation
-================================
-# RT_Assignment2_Amani_Ghomrani-
---------------------------------
+# RT2_assignment1 Documentation of RT_Assignment2_Amani_Ghomrani
+----------------------------------------------------------------
 In this assignment, a ROS package was created to manage a robot's movement and acquire data regarding its position and speed. The package comprises three nodes:
 
 (a) An action client node which enables user to set a target (x, y) or cancel it. Utilizing the feedback/status of the action server, I ensured awareness of when the target has been reached. Additionally, this node publishes the robot's position and velocity as a vel_pos message (pos_x, pos_y, vel_x, vel_y) by extracting values from the /odom topic.
@@ -41,3 +39,6 @@ $  roslaunch assignment_2_2023 assignment1.launch
 The after executing the launch file the user will see 2 terminals and one Gazibo window and a Rviz window
    - The first terminal allows the user to enter the (x,y) of the goal position
    - The second terminal displays the distance and velocity or the robot
+## Link to the documentation page
+----------------------------------
+https://amanighm.github.io/RT2_assignment1_documentation/
